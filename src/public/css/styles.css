@@ -1,13 +1,8 @@
-/* Lưu ý: Tên Class để dấu chấm phía trc */
-.classA{
-    width: 700;
-}
 * {
     margin: 0;
     padding: 0;
   }
-/* Add a black background color to the top navigation */
-.topnav {
+.topnav {  /* Lưu ý: Tên Class để dấu chấm phía trc */
     background-color: #333;
     overflow: hidden;
   }
@@ -32,4 +27,20 @@
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+  }
+  .form-addnew{
+    margin: 0 auto;
+    width: 450px;
+    padding-top: 120px; /* Lưu ý px phải viết sát vào số */
+  }
+  .input-group{
+    padding: 10px;
+  }
+  button{
+    margin : 10px;
+    cursor: pointer;
+  }
+  .input-button{
+    margin : 10px;
+    cursor: pointer;
   }

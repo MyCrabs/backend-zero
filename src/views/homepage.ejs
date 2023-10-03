@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Không cần ./public vì trong phần config staticfile mình đã chỉ tới public rồi -->
 </head>
 <body>
     <ul>
@@ -12,6 +12,27 @@
             <a href="#news">News</a>
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
+          </div>
+          <div class="form-addnew">          
+                <fieldset>
+                    <legend>Form Add Users</legend>
+                    <div class="input-group">
+                        <label>Email:</label>
+                        <input type="text"/>
+                    </div>
+                    <div class="input-group">
+                        <label>Name:</label>
+                        <input type="text"/>
+                    </div>
+                    <div class="input-group">
+                        <label>City:</label>
+                        <input type="text"/>
+                    </div>
+                    <div >
+                        <button>Save</button>
+                    </div>
+                </fieldset>
+            </div>
           </div>
       </ul>
 </body>
