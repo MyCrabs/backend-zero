@@ -8,6 +8,7 @@ const app = express();
 const port = process.env.PORT || 3001;  
 const hostname = process.env.HOST_NAME || 'localhost';
 
+//config req.body
 app.use(express.json()); // Used to parse JSON bodies
 app.use(express.urlencoded({extended : true})); //Parse URL-encoded bodies
 
